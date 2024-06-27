@@ -1,8 +1,6 @@
-import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] array) {
-       Arrays.sort(array);
-        return (array[array.length/2]);
+public class Main {
+    public int center(int[] array) {
+        arrays.sort(array);
+        return array[array.length / 2];
     }
 }
